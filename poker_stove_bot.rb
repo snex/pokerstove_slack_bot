@@ -30,5 +30,3 @@ class PokerStoveBot < SlackRubyBot::Bot
     end
   end
 end
-
-PokerStoveBot.run
