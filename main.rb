@@ -1,3 +1,7 @@
 require_relative 'poker_stove_bot'
 
-PokerStoveBot.run
+begin
+  PokerStoveBot.run
+rescue OpenSSL::SSL::SSLError
+  PokerStoveBot.run
+end
